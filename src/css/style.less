@@ -1,0 +1,144 @@
+@import "smart-grid.less";
+
+.reset();
+
+.wrapper{
+	.wrapper();
+}
+
+body{
+	font-family: Roboto;
+}
+.head{
+	margin-top:-5px; //полоса
+	background: url(../img/Head.png) no-repeat;
+	background-size:cover;
+	height: 450px;
+	background-position: 50% 100%;
+}
+.main-text{
+width:455px;
+float: right;
+padding-right:80px;
+padding-top:34px;
+color: #F2F2F2;
+
+font-style: normal;
+font-weight: bold;
+font-size: 70px;
+line-height: 82px;
+}
+.logo{
+padding-top:33px;
+padding-left:116px;
+	& p{
+		margin-left:-17px;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 12px;
+		line-height: 14px;
+		color: #828282;
+	}	
+}
+.rooms{
+	margin-top:65px;
+
+	& .rooms-text{
+		font-style: normal;
+		font-weight: bold;
+		font-size: 24px;
+		line-height: 28px;
+		color: #4F4F4F;
+
+		margin-bottom: 25px;
+	}
+}
+
+.items{
+	display: flex;
+	justify-content: space-between;
+	& .item{
+		width: 156px;
+		height: 305px;
+		background: #F2F2F2;
+
+		& .room-name{
+			margin-top:5px;
+			padding-left:15px;
+
+			font-style: normal;
+			font-weight: 700;
+			font-size: 18px;
+			line-height: 21px;
+			color: #4F4F4F;
+		}
+		& .room-bonus{
+			margin-top: 10px;
+
+			font-style: normal;
+			font-weight: normal;
+			font-size: 16px;
+			line-height: 19px;
+			color: #4F4F4F;
+			& img{
+			  padding-left:15px;
+			  margin-right:15px;
+			  width: 15px;
+			  height: 15px;
+			}
+		}
+		& button{
+			font-style: normal;
+			font-weight: bold;
+			font-size: 12px;
+			line-height: 14px;
+			text-align: center;
+			color: #FFFFFF;
+			background: #F2994A;
+			border:none;
+			padding: 8px 16px;
+			margin-top:15px;
+			margin-left:18px;
+		}
+
+		& .price{
+			padding: 10px 36px;
+			font-family: Roboto;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 13px;
+			line-height: 14px;
+			color: #4F4F4F;
+		}
+	}
+}
+
+.show-all{	
+			cursor:pointer;
+			margin-top:20px;
+			font-family: Roboto;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 16px;
+			line-height: 19px;
+			color: #F2994A;
+			& img{
+				margin-bottom: -4px;
+				margin-left: 15px;
+			}
+	}
+.footer{
+	margin-top:50px;
+	height: 50px;
+	background: #F2F2F2;
+	display:flex;
+	justify-content: center;
+	align-items:center;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 16px;
+	text-align: center;
+	color: #F2994A;
+}
